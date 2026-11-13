@@ -45,8 +45,8 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: "1"
           # A dead proxy: if a test ever tried the network, it would fail at once.
+          # GitHub treats env names as one name in any letter case, so only the upper-case pair is set.
+          # Python reads them in either case.
           HTTP_PROXY: http://127.0.0.1:9
           HTTPS_PROXY: http://127.0.0.1:9
-          http_proxy: http://127.0.0.1:9
-          https_proxy: http://127.0.0.1:9
         run: python -m unittest discover
