@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  PSX auto-run: the tape recorder (only used when "tape": true in autorun.json, in the day style).
+  It has no schedule of its own: the tick starts it on market days with
+  launchctl kickstart gui/<your user id>/local.psx-autorun.tape
+  A template: install.sh puts in your home folder (__HOME__) and the app's place (__APP__),
+  writes it to ~/Library/LaunchAgents/, and loads it with: launchctl bootstrap gui/<your user id> <file>
+  Uninstall: launchctl bootout gui/<your user id>/local.psx-autorun.tape, then delete the file (uninstall.sh does both).
+-->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.psx-autorun.tape</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>__APP__/Contents/MacOS/applet</string>
+	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PSX_JOB</key>
+		<string>tape</string>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>WorkingDirectory</key>
+	<string>__HOME__/Library/Application Support/psx-autorun</string>
+	<key>StandardOutPath</key>
+	<string>__HOME__/Library/Logs/psx-autorun/launchd-tape.log</string>
+	<key>StandardErrorPath</key>
+	<string>__HOME__/Library/Logs/psx-autorun/launchd-tape.log</string>
+	<key>ExitTimeOut</key>
+	<integer>60</integer>
+</dict>
+</plist>

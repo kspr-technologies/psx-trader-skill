@@ -1,0 +1,32 @@
+{
+  "note": "Made up for the tests: a long-term folder. The Z symbols are not PSX symbols. psx-invest never reads avg_cost or a lot's cost.",
+  "as_of": "2026-10-01",
+  "cash": 50000,
+  "positions": [
+    {"ticker": "ZUP", "shares": 200, "avg_cost": 217.83,
+     "lots": [{"id": "ZUP-1", "date": "2025-03-04", "shares": 200, "cost": 43566.0}]},
+    {"ticker": "ZCAP", "shares": 2950, "avg_cost": 82.41,
+     "lots": [{"id": "ZCAP-1", "date": "2025-02-11", "shares": 2000, "cost": 164820.0},
+              {"id": "ZCAP-2", "date": "2025-06-17", "shares": 950, "cost": 78289.5}]},
+    {"ticker": "ZBRK", "shares": 1300, "avg_cost": 61.07,
+     "lots": [{"id": "ZBRK-1", "date": "2025-04-08", "shares": 1300, "cost": 79391.0}]},
+    {"ticker": "ZOLD", "shares": 2000, "avg_cost": 35.66,
+     "lots": [{"id": "ZOLD-1", "date": null, "shares": 2000, "cost": 71320.0, "note": "made up: from a broker statement"}]},
+    {"ticker": "ZSPL", "shares": 1450, "avg_cost": 49.49,
+     "lots": [{"id": "ZSPL-1", "date": "2025-05-20", "shares": 1450, "cost": 71760.5}]},
+    {"ticker": "ZBON", "shares": 600, "avg_cost": 72.03,
+     "lots": [{"id": "ZBON-1", "date": "2025-07-01", "shares": 600, "cost": 43218.0}]},
+    {"ticker": "ZGAP", "shares": 410, "avg_cost": 152.37,
+     "lots": [{"id": "ZGAP-1", "date": "2025-08-12", "shares": 410, "cost": 62471.7}]},
+    {"ticker": "ZNEW", "shares": 1900, "avg_cost": 19.13,
+     "lots": [{"id": "ZNEW-1", "date": "2026-06-02", "shares": 1900, "cost": 36347.0}]},
+    {"ticker": "ZRES", "shares": 375, "avg_cost": 192.81,
+     "lots": [{"id": "ZRES-1", "date": "2025-09-09", "shares": 375, "cost": 72303.75}]},
+    {"ticker": "ZSTL", "shares": 1000, "avg_cost": 27.11,
+     "lots": [{"id": "ZSTL-1", "date": "2025-10-14", "shares": 1000, "cost": 27110.0}]},
+    {"ticker": "ZTHN", "shares": 1100, "avg_cost": 58.19,
+     "lots": [{"id": "ZTHN-1", "date": "2025-11-18", "shares": 1100, "cost": 64009.0}]},
+    {"ticker": "ZRIT", "shares": 880, "avg_cost": 41.17,
+     "lots": [{"id": "ZRIT-1", "date": "2025-12-09", "shares": 880, "cost": 36229.6}]}
+  ]
+}

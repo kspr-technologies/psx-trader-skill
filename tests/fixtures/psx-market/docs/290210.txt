@@ -1,0 +1,35 @@
+
+                                              FORM-29
+
+   The General Manager
+   Pakistan Stock Exchange Limited
+   Stock Exchange Building
+   Stock Exchange Road
+   Karachi                                                                      Dated: October 29, 2026
+
+   Subject: Disclosure of Interest by Relevant Persons Holding Company's Shares under PSX Regulation 5.6.4.
+
+   Dear Sir,
+
+   In compliance with Regulation 5.6.4 of the PSX Regulations, we inform you that the following
+   transactions in the shares of Demo Industries Limited (the "Company") have been reported to us:
+
+   Sr.  Name of Relevant Person(s)     Details of Transaction(s)                                    Cumulative Shareholding
+   No.  with Description               Form of      Market   Date         Nature   No. of      Rate      Number of     Percentage
+                                       Share                                       Share(s)              shares
+                                       Certificate
+   1    Mr. Salman Akhtar              CDC          Ready    2026-10-28   Buy      25,000      97.11     1,265,000     0.51%
+        (Director)
+   2    Mrs. Hina Salman               CDC          Ready    2026-10-28   Buy      10,000      97.26     410,000       0.16%
+        (Spouse of Director)
+
+   The above transactions will be presented in the next meeting of the Board of Directors.
+
+   Yours faithfully,
+   For Demo Industries Limited
+
+
+   ______________________
+   Imran Siddiq
+   Company Secretary
+

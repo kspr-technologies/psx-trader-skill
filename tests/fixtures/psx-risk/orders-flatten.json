@@ -1,0 +1,18 @@
+{
+  "created_by": "psx-broker",
+  "created_at": "2026-10-29T10:20:00Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Flat by 15:20: close the day trade. psx-risk checks it like any order.",
+  "orders": [
+    {
+      "symbol": "DEMO",
+      "side": "sell",
+      "qty": 3428,
+      "type": "market",
+      "time_in_force": "day",
+      "board": "REG",
+      "why": "flat by 15:20: close the DEMO day trade"
+    }
+  ]
+}

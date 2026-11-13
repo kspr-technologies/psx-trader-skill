@@ -1,0 +1,20 @@
+{
+  "created_by": "psx-broker",
+  "created_at": "2026-10-29T04:36:00Z",
+  "status": "proposed",
+  "paper": false,
+  "note": "A stop-limit sell of shares you hold. psx-risk checks it like any order.",
+  "orders": [
+    {
+      "symbol": "DEMO",
+      "side": "sell",
+      "qty": 1436,
+      "type": "stop_limit",
+      "trigger_price": 96.25,
+      "limit_price": 95.28,
+      "time_in_force": "day",
+      "board": "REG",
+      "why": "protect DEMO: the plan stop 96.25 as a stop-limit sell in your broker app"
+    }
+  ]
+}

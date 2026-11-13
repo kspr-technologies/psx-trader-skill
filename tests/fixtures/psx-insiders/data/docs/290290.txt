@@ -1,0 +1,14 @@
+                                        SCHEDULE III
+                           [See Regulation 4(2) of the Listed Companies (Substantial
+                        Acquisition of Voting Shares and Takeovers) Regulations, 2017]
+
+   Disclosure pursuant to section 110 (1) of the Securities Act, 2015
+
+   1. Name of the acquirer:                       Made Up Holdings (Private) Limited
+   2. Name of the target company:                 Acme Textiles Limited
+   3. Date of acquisition:                        October 26, 2026
+   4. Number of voting shares acquired:           2,600,000
+   5. Holding after the acquisition:              10.40% of the voting shares
+   6. Average price paid per share:               119.75
+
+   (Made up for the psx-insiders tests.)

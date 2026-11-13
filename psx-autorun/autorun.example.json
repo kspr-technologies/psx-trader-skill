@@ -1,0 +1,20 @@
+{
+  "python": "",
+  "pack": "",
+  "folders": {"trading": "", "longterm": ""},
+  "reports": "",
+  "calendar_folder": "trading",
+  "morning_lead_min": 75,
+  "check_every_min": 5,
+  "check_start_after_min": 7,
+  "final_check_after_min": 10,
+  "after_close_delay_min": 40,
+  "after_close_retry_min": 15,
+  "after_close_give_up_min": 240,
+  "weekly": {"weekday": 5, "time": "10:00"},
+  "price_source": "psx-screener",
+  "tape": false,
+  "keep_awake": true,
+  "notify": {"morning": true, "alerts": true, "after_close": true, "weekly": true, "problems": true,
+             "sound": "Glass"}
+}

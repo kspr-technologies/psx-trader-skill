@@ -1,0 +1,22 @@
+{
+  "real_holdings": true,
+  "as_of": "2026-10-28",
+  "note": "Made up for the tests: a long-term folder that holds real shares. DEMO is not a PSX symbol.",
+  "cash": 100000,
+  "positions": [
+    {
+      "ticker": "DEMO",
+      "shares": 500,
+      "avg_cost": 92.5,
+      "lots": [
+        {
+          "id": "DEMO-1",
+          "date": null,
+          "shares": 500,
+          "cost": 46250.0,
+          "note": "made up: from a broker statement"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Runs the pack's own tests on Linux and on a Mac, with Python 3.8, 3.10 and 3.12.
+# The tests are offline and use made-up DEMO data only. They never reach the PSX site.
+name: Tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.8", "3.10", "3.12"]
+        exclude:
+          # Python 3.8 has no build for Ubuntu 26.04 (actions/python-versions).
+          # ubuntu-latest is 24.04 now, but it will move to 26.04.
+          # So Python 3.8 runs on ubuntu-24.04 (below), not on ubuntu-latest.
+          - os: ubuntu-latest
+            python: "3.8"
+        include:
+          - os: ubuntu-24.04
+            python: "3.8"
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Run the tests
+        working-directory: tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          # A dead proxy: if a test ever tried the network, it would fail at once.
+          HTTP_PROXY: http://127.0.0.1:9
+          HTTPS_PROXY: http://127.0.0.1:9
+          http_proxy: http://127.0.0.1:9
+          https_proxy: http://127.0.0.1:9
+        run: python -m unittest discover

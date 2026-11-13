@@ -1,0 +1,5 @@
+{"as_of": "2026-10-29T10:25:07Z", "source": "psx-company", "note": "PSX company page, about 5 minutes late",
+ "prices": {"DEMO": 101.58},
+ "detail": {"DEMO": {"prev_close": 98.4, "time": "2026-10-29T10:20:00Z", "source": "psx-company",
+                     "fetched": "2026-10-29T10:25:07Z", "lower": 88.56, "upper": 108.24,
+                     "limits_from": "company page"}}}

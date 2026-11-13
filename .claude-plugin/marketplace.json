@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "psx-trader-skill",
+  "version": "2.0.0",
+  "description": "The PSX Day Trader skill pack for Claude. 13 skills for the Pakistan Stock Exchange: day or swing trades, long-term signals, and checks your Mac runs by itself.",
+  "owner": {
+    "name": "Waleed Amjad",
+    "url": "https://github.com/developerwaleed"
+  },
+  "plugins": [
+    {
+      "name": "psx-trader-skill",
+      "source": "./",
+      "description": "13 Claude skills for the Pakistan Stock Exchange. Find setups, read the news, time the entry, plan the exit, replay a trade 10,000 times, check the risk, size the order and get price alerts, for day or swing trades. Order tickets you place yourself: paper by default, never without your yes. Also a results analyst, an insider tracker, long-term signals for the shares you hold, and auto-run, which lets your Mac run the checks on a timer.",
+      "category": "finance"
+    }
+  ]
+}

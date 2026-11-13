@@ -1,0 +1,38 @@
+{
+  "created_by": "psx-budget",
+  "created_at": "2026-10-29T04:20:00Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Proposals only. Nothing in this pack places an order: psx-risk checks each one, psx-broker shows a ticket after your yes, and you place it yourself in your broker's app.",
+  "source": "psx/plan.json (DEMO breakout_20d 2026-10-29)",
+  "orders": [
+    {
+      "symbol": "DEMO",
+      "side": "buy",
+      "qty": 1436,
+      "type": "limit",
+      "limit_price": 99.38,
+      "time_in_force": "day",
+      "board": "REG",
+      "stop_loss": 96.25,
+      "take_profit": 105.64,
+      "why": "20-day closing-high breakout on DEMO: 1436 shares, bound by your Rs 5,000 max loss per trade (1436 x 3.13 = Rs 4,494.68 at the stop + Rs 503.13 costs = Rs 4,997.81, costs included)",
+      "plan": {
+        "style": "swing",
+        "entry": 99.38,
+        "stop": 96.25,
+        "target": 105.64,
+        "risk_per_share": 3.13,
+        "max_loss": 4997.81,
+        "costs": 503.13,
+        "setup": "breakout_20d",
+        "entry_time": null,
+        "flat_by": null,
+        "exit_by": "2026-11-27",
+        "exit_by_time": "16:20",
+        "trend_sessions": 10,
+        "gap_loss": 14759.46
+      }
+    }
+  ]
+}

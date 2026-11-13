@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "at": "2026-10-29T09:20:00+05:00",
+      "date": "2026-10-29",
+      "index": 1,
+      "fingerprint": "0d80ffbb0d898a06",
+      "symbol": "DEMO",
+      "side": "buy",
+      "qty": 1436,
+      "kind": "entry",
+      "max_loss": 4997.81,
+      "stop": 96.25,
+      "plain": "BUY 1,436 DEMO, limit 99.38, good for today, REG board / plan stop 96.25 / plan target 105.64 / max loss about Rs 4,997.81 if the stop fills at 96.25, costs included",
+      "status": "approved",
+      "reply": "yes",
+      "paper": false,
+      "broker": "manual",
+      "entry_ref": 99.38
+    }
+  ]
+}

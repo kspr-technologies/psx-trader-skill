@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  PSX auto-run: the tick. It runs every 5 minutes, all day, and once at login.
+  Each run asks the PSX clock what is due (most runs do nothing and end in a second).
+  StartCalendarInterval (not StartInterval): when the Mac was asleep at a planned time,
+  launchd runs the job once at wake, so a missed job is caught up.
+  A template: install.sh puts in your home folder (__HOME__) and the app's place (__APP__),
+  writes it to ~/Library/LaunchAgents/, and loads it with: launchctl bootstrap gui/<your user id> <file>
+  Uninstall: launchctl bootout gui/<your user id>/local.psx-autorun.tick, then delete the file (uninstall.sh does both).
+-->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.psx-autorun.tick</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>__APP__/Contents/MacOS/applet</string>
+	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PSX_JOB</key>
+		<string>tick</string>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>25</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>30</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>35</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>40</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>45</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>50</integer>
+		</dict>
+		<dict>
+			<key>Minute</key>
+			<integer>55</integer>
+		</dict>
+	</array>
+	<key>WorkingDirectory</key>
+	<string>__HOME__/Library/Application Support/psx-autorun</string>
+	<key>StandardOutPath</key>
+	<string>__HOME__/Library/Logs/psx-autorun/launchd-tick.log</string>
+	<key>StandardErrorPath</key>
+	<string>__HOME__/Library/Logs/psx-autorun/launchd-tick.log</string>
+	<key>ExitTimeOut</key>
+	<integer>30</integer>
+</dict>
+</plist>

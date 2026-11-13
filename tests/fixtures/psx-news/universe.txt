@@ -1,0 +1,31 @@
+AIRLINK|Air Link Communication Limited|0828
+ATRL|Attock Refinery Limited|0825
+BAFL|Bank Alfalah Limited|0807
+BOP|The Bank of Punjab|0807
+CNERGY|Cnergyico PK  Limited|0825
+DEMO|Demo Industries Limited|0818
+DGKC|D.G. Khan Cement Company Limited|0804
+EFERT|Engro Fertilizers Limited|0809
+ENGROH|Engro Holdings Limited|0813
+FCCL|Fauji Cement Company Limited|0804
+FFC|Fauji Fertilizer Company Limited|0809
+HBL|Habib Bank Limited|0807
+HUBC|The Hub Power Company Limited|0824
+ILP|Interloop Limited|0829
+KEL|K-Electric Limited|0824
+LUCK|Lucky Cement Limited|0804
+MARI|Mari Energies Limited|0820
+MCB|MCB Bank Limited|0807
+MEBL|Meezan Bank Limited|0807
+MLCF|Maple Leaf Cement Factory Limited|0804
+NBP|National Bank of Pakistan|0807
+NML|Nishat Mills Limited|0829
+OGDC|Oil & Gas Development Company Limited|0820
+PIOC|Pioneer Cement Limited|0804
+POL|Pakistan Oilfields Limited|0820
+PPL|Pakistan Petroleum Limited|0820
+PSO|Pakistan State Oil Company Limited|0821
+SEARL|The Searle Company Limited|0823
+SYS|Systems Limited|0828
+TRG|TRG Pakistan Limited|0828
+UBL|United Bank Limited|0807

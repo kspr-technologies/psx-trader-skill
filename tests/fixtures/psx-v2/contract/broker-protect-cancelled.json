@@ -1,0 +1,45 @@
+{
+  "orders": [
+    {
+      "at": "2026-10-30T09:35:00+05:00",
+      "date": "2026-10-30",
+      "index": 1,
+      "fingerprint": "4f1f7cf1107d6b31",
+      "symbol": "DEMO",
+      "side": "sell",
+      "qty": 143,
+      "kind": "exit",
+      "max_loss": null,
+      "stop": null,
+      "plain": "SELL 143 DEMO, stop-limit, trigger 96.25, limit 95.28, good for today, REG board",
+      "status": "approved",
+      "reply": "yes 96.25",
+      "paper": false,
+      "broker": "manual"
+    },
+    {
+      "at": "2026-10-30T09:36:00+05:00",
+      "date": "2026-10-30",
+      "index": 1,
+      "fingerprint": "4f1f7cf1107d6b31",
+      "symbol": "DEMO",
+      "side": "sell",
+      "plain": "SELL 143 DEMO, stop-limit, trigger 96.25, limit 95.28, good for today, REG board",
+      "status": "placed",
+      "qty": 143,
+      "kind": "exit",
+      "broker_order_id": "FS-2001"
+    },
+    {
+      "at": "2026-10-30T11:05:00+05:00",
+      "date": "2026-10-30",
+      "index": 1,
+      "fingerprint": "4f1f7cf1107d6b31",
+      "symbol": "DEMO",
+      "side": "sell",
+      "plain": "SELL 143 DEMO, stop-limit, trigger 96.25, limit 95.28, good for today, REG board",
+      "status": "cancelled",
+      "of": "2026-10-30"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{"created_by": "psx-exit", "symbol": "DEMO", "side": "buy", "date": "2026-10-29",
+ "setup": "orb", "entry": 100.65, "entry_time": "10:15 AM", "entry_bar": 8, "interval": "5m",
+ "opening_range": {"high": 100.2, "low": 98.9, "minutes": 15},
+ "stop": 99.55, "stop_rule": "or_mid", "stop_label": "opening-range midpoint",
+ "target": 101.75, "target_r": 1.0, "target_label": "1R (one times the risk)",
+ "risk_per_share": 1.1, "reward_risk": 1.0, "flat_by": "15:20", "session": "normal",
+ "limits": {"lower": 88.56, "upper": 108.24, "ldcp": 98.4, "from": "company page"},
+ "costs_per_share_est": 0.3586}

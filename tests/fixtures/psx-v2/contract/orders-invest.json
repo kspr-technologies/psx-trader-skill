@@ -1,0 +1,54 @@
+{
+  "created_by": "psx-invest",
+  "created_at": "2026-10-29T05:20:00Z",
+  "status": "proposed",
+  "paper": false,
+  "note": "Proposals only. Nothing in this pack places an order: psx-risk checks each one, psx-broker shows a ticket after your yes, and you place it yourself in your broker's app.",
+  "orders": [
+    {
+      "symbol": "LUCK",
+      "side": "sell",
+      "qty": 12,
+      "type": "limit",
+      "limit_price": 468.0,
+      "time_in_force": "day",
+      "board": "REG",
+      "stop_loss": null,
+      "take_profit": null,
+      "why": "psx-invest TRIM: size 26.1%, over the 25% trim line, back to the 20% cap (rule 5)",
+      "plan": {
+        "style": "invest",
+        "signal": "TRIM",
+        "entry": 468.0,
+        "fair_share_pct": 12.5,
+        "weight_after_pct": 20.0,
+        "rules": [
+          "size over the trim line (26.1%)"
+        ]
+      }
+    },
+    {
+      "symbol": "DEMO",
+      "side": "buy",
+      "qty": 100,
+      "type": "limit",
+      "limit_price": 98.4,
+      "time_in_force": "day",
+      "board": "REG",
+      "stop_loss": null,
+      "take_profit": null,
+      "why": "psx-invest ADD: no vote down, 12-month up (+19.5%), size 6.3% to 8.2% (fair share 12.5%)",
+      "plan": {
+        "style": "invest",
+        "signal": "ADD",
+        "entry": 98.4,
+        "fair_share_pct": 12.5,
+        "weight_after_pct": 8.15,
+        "rules": [
+          "trend no vote (+1.1%)",
+          "12-month up (+19.5%)"
+        ]
+      }
+    }
+  ]
+}

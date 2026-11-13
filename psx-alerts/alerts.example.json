@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {"id": "opening-bell", "type": "opening_bell"},
+    {"id": "opening-bell-2", "type": "opening_bell", "session": 2},
+    {"id": "demo-plan-stop", "symbol": "DEMO", "type": "stop", "price": 99.55, "note": "plan stop: opening-range midpoint", "date": "2026-10-29"},
+    {"id": "demo-plan-target", "symbol": "DEMO", "type": "target", "price": 101.75, "note": "plan target: 1R (one times the risk)", "date": "2026-10-29"},
+    {"id": "demo-flat-by", "symbol": "DEMO", "type": "time", "at": "15:20", "label": "flat by close", "before_close": true, "date": "2026-10-29"},
+    {"id": "demo-move-3", "symbol": "DEMO", "type": "pct_move", "pct": 3},
+    {"id": "demo-limit-any", "symbol": "DEMO", "type": "limit", "direction": "any"},
+    {"id": "kse30-move-4.5", "type": "index_move", "index": "KSE30", "pct": 4.5}
+  ]
+}

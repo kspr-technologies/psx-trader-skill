@@ -1,0 +1,32 @@
+{
+  "cash": 357034.73,
+  "positions": [
+    {
+      "ticker": "DEMO",
+      "shares": 1436,
+      "lots": [
+        {
+          "id": "DEMO-1",
+          "date": "2026-10-29",
+          "shares": 1436,
+          "cost": 142709.68,
+          "costs": 255.59
+        }
+      ],
+      "plan": {
+        "style": "swing",
+        "date": "2026-10-29",
+        "stop": 96.25,
+        "stop_at_buy": 96.25,
+        "target": 105.64,
+        "exit_by": "2026-11-27",
+        "exit_by_time": "16:20",
+        "trend_sessions": 10,
+        "setup": "breakout_20d",
+        "max_loss": 4997.81,
+        "scaled": [],
+        "from": "psx/orders.json"
+      }
+    }
+  ]
+}

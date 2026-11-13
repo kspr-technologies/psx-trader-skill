@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Your own data. Never commit it.
+# psx/ is a trading folder: your config, orders, ledger, prices and saved PSX pages.
+psx/
+# autorun/ is where auto-run writes its reports by default.
+autorun/
+*.log
+
+# Local tools
+.venv/
+.pytest_cache/
+.env

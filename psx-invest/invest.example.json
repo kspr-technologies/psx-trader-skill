@@ -1,0 +1,18 @@
+{
+  "trend_months": 10,
+  "momentum_months": 12,
+  "add_band_pct": 2,
+  "down_band_pct": 5,
+  "break_trim_pct": 50,
+  "max_weight_pct": 20,
+  "trim_band_pct": 5,
+  "max_sector_pct": 30,
+  "sector_band_pct": 5,
+  "sector_groups": {},
+  "targets": {},
+  "results_drop_pct": 25,
+  "stale_trade_sessions": 20,
+  "keep_cash_pkr": 0,
+  "candidates": [],
+  "sessions": 500
+}

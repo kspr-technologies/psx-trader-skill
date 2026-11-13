@@ -1,0 +1,12 @@
+{
+  "cash": 154353.85,
+  "positions": [
+    {
+      "ticker": "DEMO",
+      "shares": 3428,
+      "lots": [
+        {"id": "DEMO-1", "date": "2026-10-29", "shares": 3428, "cost": 345028.2, "costs": 617.95}
+      ]
+    }
+  ]
+}

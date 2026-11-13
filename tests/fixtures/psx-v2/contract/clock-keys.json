@@ -1,0 +1,88 @@
+{
+  "about": "Made up for the tests: the keys of alerts.py clock --json, and what it says on four days.",
+  "keys": [
+    "now_karachi",
+    "date",
+    "weekday",
+    "calendar_known",
+    "calendar_note",
+    "state",
+    "open",
+    "session",
+    "segment",
+    "segments",
+    "opens",
+    "closes",
+    "reason",
+    "detail",
+    "next_open"
+  ],
+  "expected_mark": "(expected",
+  "days": [
+    {
+      "now": "2026-10-29 10:00",
+      "exit": 0,
+      "state": "open",
+      "open": true,
+      "session": "normal",
+      "segment": 0,
+      "segments": [
+        [
+          "09:30",
+          "15:30"
+        ]
+      ],
+      "opens": "09:30",
+      "closes": "15:30",
+      "calendar_known": true,
+      "calendar_note": "",
+      "reason": "regular session",
+      "next_open": "2026-10-30 09:15"
+    },
+    {
+      "now": "2026-11-06 00:01",
+      "exit": 1,
+      "state": "closed",
+      "open": false,
+      "session": "friday",
+      "segment": null,
+      "segments": [
+        [
+          "09:15",
+          "12:00"
+        ],
+        [
+          "14:30",
+          "16:30"
+        ]
+      ],
+      "opens": "09:15",
+      "closes": "16:30",
+      "calendar_note": "",
+      "reason": "before the open, pre-open from 9:00 AM PKT",
+      "next_open": "2026-11-06 09:15"
+    },
+    {
+      "now": "2027-03-05 10:00",
+      "exit": 1,
+      "state": "closed",
+      "open": false,
+      "session": null,
+      "segment": null,
+      "segments": [],
+      "opens": null,
+      "closes": null,
+      "calendar_known": true,
+      "reason": "PSX holiday: Juma-tul-Wida (expected, check PSX notices)",
+      "calendar_note": "2027-03-05 is an expected PSX holiday (Juma-tul-Wida): moon dates can move, so check PSX notices.",
+      "next_open": "2027-03-08 09:15"
+    },
+    {
+      "now": "2027-03-04 17:00",
+      "exit": 1,
+      "state": "closed",
+      "session": "ramadan",
+      "calendar_note_has": "A moon holiday is expected next to 2027-03-04"
+    }
+  ]
+}

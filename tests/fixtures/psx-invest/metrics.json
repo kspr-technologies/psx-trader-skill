@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-28",
+  "units": "Rs thousands, except EPS in rupees",
+  "companies": [
+    {"symbol": "ZBRK", "name": "Zbrk Bank Limited", "sector": "COMMERCIAL BANKS", "fiscal_year_end": 12,
+     "quarter": "Q3 2026", "quarter_end": "2026-09-30", "label_ok": true, "sales_label": "Mark-up earned",
+     "sales_000": 1250000, "profit_000": 410000, "eps": 2.1, "sales_growth_yoy": 3.1, "profit_growth_yoy": -12.5,
+     "eps_growth_yoy": -12.6, "results_notice": "2026-10-22", "next_board_meeting": "2026-11-12",
+     "figures": "unconsolidated", "source": "PSX company page"},
+    {"symbol": "ZCAP", "name": "Zcap Cement Limited", "sector": "CEMENT", "fiscal_year_end": 6,
+     "quarter": "Q1 2027", "quarter_end": "2026-09-30", "label_ok": true, "sales_label": "Sales",
+     "sales_000": 8400000, "profit_000": 920000, "eps": 6.4, "sales_growth_yoy": 11.0, "profit_growth_yoy": 8.4,
+     "eps_growth_yoy": 8.2, "results_notice": "2026-10-20", "next_board_meeting": null,
+     "figures": "unconsolidated", "source": "PSX company page"},
+    {"symbol": "ZRES", "name": "Zres Chemical Limited", "sector": "CHEMICAL", "fiscal_year_end": 6,
+     "quarter": "Q1 2027", "quarter_end": "2026-09-30", "label_ok": true, "sales_label": "Sales",
+     "sales_000": 2100000, "profit_000": 81000, "eps": 1.62, "sales_growth_yoy": -4.0, "profit_growth_yoy": -40.1,
+     "eps_growth_yoy": -40.3, "results_notice": "2026-10-26", "next_board_meeting": null,
+     "figures": "unconsolidated", "source": "PSX company page"},
+    {"symbol": "ZSPL", "name": "Zspl Motors Limited", "sector": "AUTOMOBILE ASSEMBLER", "fiscal_year_end": 6,
+     "quarter": "Q1 2027", "quarter_end": null, "label_ok": false, "sales_label": "Sales",
+     "sales_000": 5300000, "profit_000": 150000, "eps": 1.03, "sales_growth_yoy": -20.0, "profit_growth_yoy": -60.0,
+     "eps_growth_yoy": -61.0, "results_notice": "2026-10-23", "next_board_meeting": null,
+     "figures": "unconsolidated", "source": "PSX company page"},
+    {"symbol": "ZUP", "name": "Zup Technologies Limited", "sector": "TECHNOLOGY & COMMUNICATION",
+     "fiscal_year_end": 12, "quarter": "Q3 2026", "quarter_end": "2026-09-30", "label_ok": true,
+     "sales_label": "Sales", "sales_000": 3900000, "profit_000": 250000, "eps": 1.25, "sales_growth_yoy": 18.0,
+     "profit_growth_yoy": 15.2, "eps_growth_yoy": -60.0, "results_notice": "2026-10-21", "next_board_meeting": null,
+     "figures": "unconsolidated", "source": "PSX company page"}
+  ]
+}

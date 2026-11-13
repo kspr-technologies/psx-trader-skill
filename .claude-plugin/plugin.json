@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "psx-trader-skill",
+  "version": "2.0.0",
+  "description": "13 Claude skills for the Pakistan Stock Exchange: scan PSX charts for setups, track the news, plan day or swing trades, replay a trade 10,000 times before you risk a rupee, get rule-based signals for the shares you hold, and let your Mac run the checks for you.",
+  "author": {
+    "name": "Waleed Amjad",
+    "url": "https://github.com/developerwaleed"
+  },
+  "homepage": "https://github.com/kspr-technologies/psx-trader-skill",
+  "repository": "https://github.com/kspr-technologies/psx-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "psx",
+    "pakistan-stock-exchange",
+    "kse-100",
+    "swing-trading",
+    "day-trading",
+    "long-term-investing",
+    "paper-trading",
+    "claude-skills"
+  ],
+  "skills": "./"
+}

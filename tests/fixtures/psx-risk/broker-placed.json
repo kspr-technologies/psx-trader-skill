@@ -1,0 +1,12 @@
+{
+  "orders": [
+    {"at": "2026-10-29T10:16:00+05:00", "date": "2026-10-29", "index": 1, "fingerprint": "e9d01b16c66c4a20",
+     "symbol": "DEMO", "side": "buy", "qty": 3428, "kind": "entry", "max_loss": 4999.94, "stop": 99.55,
+     "status": "approved", "reply": "yes, place order 1", "paper": true, "broker": "manual"},
+    {"at": "2026-10-29T10:17:00+05:00", "date": "2026-10-29", "index": 1, "fingerprint": "e9d01b16c66c4a20",
+     "symbol": "DEMO", "side": "buy", "qty": 3428, "kind": "entry", "max_loss": 4999.94, "stop": 99.55,
+     "status": "placed"},
+    {"at": "2026-10-29T10:18:00+05:00", "date": "2026-10-29", "status": "filled", "symbol": "DEMO",
+     "side": "buy", "qty": 3428, "price": 100.65}
+  ]
+}
